@@ -3,7 +3,7 @@ Sentiment Analysis using Python &amp; Flask
 
 
 ## Installation
-pip install flask nltk 
+pip install -r requirements.txt
 
 ## Run Server
-pip install sentiment_analysis.py
+python sentiment_analysis.py
