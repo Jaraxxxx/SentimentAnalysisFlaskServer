@@ -21,4 +21,6 @@ def analyze_sentiment():
     return jsonify({"sentiment": result['compound']})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = 5000  # Choose the port number you want to listen on
+    print(f"Server running on port {port}")
+    app.run(host='0.0.0.0', port=port,debug=True)
